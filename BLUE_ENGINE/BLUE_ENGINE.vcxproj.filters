@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Engine">
+      <UniqueIdentifier>{aee62ddb-fbdd-4f80-928c-2fa309ef62ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\System">
+      <UniqueIdentifier>{65e02bf6-4a0c-452e-8470-12eabe87673b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\System\Application">
+      <UniqueIdentifier>{16e91df6-1a14-4584-a7b3-e0089fe21c50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\System\Application\Input">
+      <UniqueIdentifier>{e4e86f4c-7858-4bdc-ab16-e0b76e70db23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\System\Graphics">
+      <UniqueIdentifier>{8ead93e9-c3ad-4577-898d-b77d5a32c4df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\System\ObjectFactory">
+      <UniqueIdentifier>{41bc683d-6f04-4011-b072-ccdd7e8fc8d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\System\LevelSystem">
+      <UniqueIdentifier>{baa745af-cc65-42aa-9822-9feecff7083f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\System\ObjectFactory\Object">
+      <UniqueIdentifier>{b114f6d8-8a26-4a73-a2f9-dd6b67fee071}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\System\ObjectFactory\Object\Component">
+      <UniqueIdentifier>{84fff855-27b3-48ab-95a9-a8cc3a6ad14a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\System\ObjectFactory\Object\Component\Transform">
+      <UniqueIdentifier>{fd2a71e7-2fc7-4f2a-bc8c-04051f781bdb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\System\ObjectFactory\Object\Component\Mesh">
+      <UniqueIdentifier>{2625cfa4-c8fc-4f00-83a4-41a870ff741a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\System\Application\Timer">
+      <UniqueIdentifier>{f972032e-308e-439e-960d-8601316b5edf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\System\Graphics\Shader">
+      <UniqueIdentifier>{903883cd-c76d-4882-a53a-967cae189231}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\System\Graphics\Camera">
+      <UniqueIdentifier>{4bed76c8-bce0-49c7-b715-cc9a9289092b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Engine.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Application.cpp">
+      <Filter>Source Files\Engine\System\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>Source Files\Engine\System\Application\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Source Files\Engine\System\Application\Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics.cpp">
+      <Filter>Source Files\Engine\System\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectFactory.cpp">
+      <Filter>Source Files\Engine\System\ObjectFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Source Files\Engine\System\ObjectFactory\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>Source Files\Engine\System\ObjectFactory\Object\Component\Transform</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Source Files\Engine\System\ObjectFactory\Object\Component\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Source Files\Engine\System\Graphics\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files\Engine\System\Graphics\Camera</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Engine.h">
+      <Filter>Source Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="System.h">
+      <Filter>Source Files\Engine\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Application.h">
+      <Filter>Source Files\Engine\System\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Source Files\Engine\System\Application\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelSystem.h">
+      <Filter>Source Files\Engine\System\LevelSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Source Files\Engine\System\Application\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics.h">
+      <Filter>Source Files\Engine\System\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectFactory.h">
+      <Filter>Source Files\Engine\System\ObjectFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Source Files\Engine\System\ObjectFactory\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>Source Files\Engine\System\ObjectFactory\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="ComponentType.h">
+      <Filter>Source Files\Engine\System\ObjectFactory\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>Source Files\Engine\System\ObjectFactory\Object\Component\Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Source Files\Engine\System\ObjectFactory\Object\Component\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Source Files\Engine\System\Graphics\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Source Files\Engine\System\Graphics\Camera</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
